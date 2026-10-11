@@ -1,0 +1,9 @@
+test_idx,file,ground_truth,prediction,confidence,prob_true_class
+266,Ragdoll_35.jpg,Ragdoll,Birman,0.9961955547332764,0.0035950427409261465
+9,Ragdoll_208.jpg,Ragdoll,Birman,0.9885135293006897,0.009670587256550789
+130,Birman_79.jpg,Birman,Ragdoll,0.9782214760780334,0.021356137469410896
+196,american_pit_bull_terrier_26.jpg,American Pit Bull Terrier,Staffordshire Bull Terrier,0.965578019618988,0.03389015048742294
+77,american_pit_bull_terrier_98.jpg,American Pit Bull Terrier,Staffordshire Bull Terrier,0.9629294276237488,0.029341373592615128
+155,staffordshire_bull_terrier_70.jpg,Staffordshire Bull Terrier,American Pit Bull Terrier,0.9063301682472229,0.08711911737918854
+239,american_pit_bull_terrier_53.jpg,American Pit Bull Terrier,Staffordshire Bull Terrier,0.8918774724006653,0.10747768729925156
+49,american_pit_bull_terrier_106.jpg,American Pit Bull Terrier,Boxer,0.8801721334457397,0.0810229554772377

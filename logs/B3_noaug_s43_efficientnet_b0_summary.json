@@ -1,0 +1,33 @@
+{
+  "run_id": "B3_noaug_s43_efficientnet_b0",
+  "condition": "B3",
+  "arch": "efficientnet_b0",
+  "use_aug": false,
+  "seed": 43,
+  "tag": "",
+  "trainable_params": 1142202,
+  "total_params": 4020358,
+  "learning_rates": {
+    "features_7_8": 0.0001,
+    "classifier": 0.001
+  },
+  "epochs_run": 12,
+  "best_epoch": 7,
+  "train_time_s": 117.32,
+  "best_val_loss": 0.2220049705859777,
+  "best_val_acc": 0.918918918918919,
+  "train_acc_eval_mode": 0.9963846710050615,
+  "gap_train_val": 0.07746575208614248,
+  "test_acc": 0.9191919191919192,
+  "test_macro_f1": 0.9177341827619914,
+  "config": {
+    "batch_size": 32,
+    "optimizer": "AdamW",
+    "weight_decay": 0.01,
+    "max_epochs": 40,
+    "patience": 5,
+    "device": "cuda",
+    "torch": "2.11.0+cu130",
+    "split_seed": 42
+  }
+}

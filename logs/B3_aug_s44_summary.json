@@ -1,0 +1,33 @@
+{
+  "run_id": "B3_aug_s44",
+  "condition": "B3",
+  "arch": "resnet18",
+  "use_aug": true,
+  "seed": 44,
+  "tag": "",
+  "trainable_params": 8398858,
+  "total_params": 11181642,
+  "learning_rates": {
+    "layer4": 0.0001,
+    "fc": 0.001
+  },
+  "epochs_run": 11,
+  "best_epoch": 6,
+  "train_time_s": 165.46,
+  "best_val_loss": 0.26425952444205414,
+  "best_val_acc": 0.8986486486486487,
+  "train_acc_eval_mode": 0.9898770788141721,
+  "gap_train_val": 0.0912284301655234,
+  "test_acc": 0.8720538720538721,
+  "test_macro_f1": 0.8708369426788799,
+  "config": {
+    "batch_size": 32,
+    "optimizer": "AdamW",
+    "weight_decay": 0.01,
+    "max_epochs": 40,
+    "patience": 5,
+    "device": "cuda",
+    "torch": "2.11.0+cu130",
+    "split_seed": 42
+  }
+}

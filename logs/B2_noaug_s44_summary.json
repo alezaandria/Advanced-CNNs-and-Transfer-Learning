@@ -1,0 +1,32 @@
+{
+  "run_id": "B2_noaug_s44",
+  "condition": "B2",
+  "arch": "resnet18",
+  "use_aug": false,
+  "seed": 44,
+  "tag": "",
+  "trainable_params": 5130,
+  "total_params": 11181642,
+  "learning_rates": {
+    "fc": 0.001
+  },
+  "epochs_run": 20,
+  "best_epoch": 15,
+  "train_time_s": 211.79,
+  "best_val_loss": 0.2836342550612785,
+  "best_val_acc": 0.8918918918918919,
+  "train_acc_eval_mode": 0.9783080260303688,
+  "gap_train_val": 0.08641613413847693,
+  "test_acc": 0.8754208754208754,
+  "test_macro_f1": 0.873163599961088,
+  "config": {
+    "batch_size": 32,
+    "optimizer": "AdamW",
+    "weight_decay": 0.01,
+    "max_epochs": 40,
+    "patience": 5,
+    "device": "cuda",
+    "torch": "2.11.0+cu130",
+    "split_seed": 42
+  }
+}
